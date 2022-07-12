@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Utilitys">
+      <UniqueIdentifier>{a62c154a-3dd8-4178-b9b9-29705f068d47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Mian.cpp">
@@ -21,7 +24,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\PPM_Image.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vec3.h">
+      <Filter>Header Files\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.h">
+      <Filter>Header Files\Utilitys</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
